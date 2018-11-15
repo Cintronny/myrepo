@@ -6,4 +6,4 @@ adj = ("free", "many", "new")
 num = random.randrange(0,9)
 vernum = random.randrange(0,12)
 adnum = random.randrange(0,3)
-print nouns[num] + ' ' + verbs[vernum] + ' ' + adj[adnum]
+print nouns[num] + ' ' + verbs[vernum] + ' ' + adj[adnum] + ' ' + verbs[vernum] + ' ' + nouns[num]
