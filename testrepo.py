@@ -7,5 +7,5 @@ num = random.randrange(0,9)
 vernum = random.randrange(0,11)
 adnum = random.randrange(0,3)
 first_half = (adj[adnum] + ' ' + nouns[num] + ' ' + verbs[vernum])
-second_half = (adj[adnum] + ' ' + verbs[vernum] + ' ' + nouns[num])
+second_half = (adj[adnum] + ' ' + nouns[num])
 print first_half + ' ' + second_half
