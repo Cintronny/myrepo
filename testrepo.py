@@ -1,6 +1,6 @@
 import random
 
-nouns = ("puppy", "car", "rabbit", "girl", "monkey")
+nouns = ("tuition", "students", "college", "fees", "university", "semester", "")
 verbs = ("runs", "hits", "jumps", "drives", "barfs")
 adj = ("adorable", "clueless", "dirty", "odd", "stupid")
 num = random.randrange(0,5)
