@@ -4,4 +4,6 @@ nouns = ("Tuition", "students", "college", "fees", "university", "semester", "do
 verbs = ("pay", "will", "make", "education", "fighting", "ability", "money", "needs", "help", "can", "win", "looking", "Thanks", "access", "attend", "don’t", "gonna", "learn", "just")
 adj = ("free", "just", "many", "new")
 num = random.randrange(0,24)
-print adj[num] + ' ' + verbs[num] + ' ' + nouns[num]
+vernum = random.randrange(0,19)
+adnum = random.randrange(0,4)
+print adj[adnum] + ' ' + nouns[num] + ' ' + verbs[vernum]
